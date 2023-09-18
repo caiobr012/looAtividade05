@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2023-09-18T22:34:29.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="L8pveSkpXvLFTnmz332O" version="21.7.5" type="github">
+  <diagram name="Page-1" id="H6nzI1ZOsoYLjekhnV39">
+    <mxGraphModel dx="962" dy="438" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_MenzkilXTFoaSqeFXYU-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BaseIdentificadorVeiculo&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# codigo: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BaseIdentificadorVeiuclo(int)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="21" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_MenzkilXTFoaSqeFXYU-2" target="_MenzkilXTFoaSqeFXYU-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-2" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;BaseDadosVeiculo&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# modelo: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# fabricante: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BaseVeiculo(int, String, String, String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="180" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_MenzkilXTFoaSqeFXYU-3" target="_MenzkilXTFoaSqeFXYU-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-3" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;BaseVeiculo&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# cor: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# chassi: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# anoModelo: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# anoFrabricacao: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# pesoLiquido: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# pesoTotal: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# assentos: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# potencia: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# tipoCombustivel: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# nomeProprietario: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# estadoUF: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# cidadeUF: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# tipoVeiculo: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# qtdeOcupantes: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BaseVeiculo(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="380" width="190" height="379" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="792" as="sourcePoint" />
+            <mxPoint x="375" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-7" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;BaseVeiculoTerrestre&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# placa: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# codigoRenavam: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# roda: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BaseVeiculoTerrestre(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int, String, String, int)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="550" y="825" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="_MenzkilXTFoaSqeFXYU-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="638" y="1056" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="964" y="1056" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Motocicleta&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- categoria: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Motocicleta(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int, String, String, int, String)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="869" y="1111" width="190" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_MenzkilXTFoaSqeFXYU-9" target="_MenzkilXTFoaSqeFXYU-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Aviao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# qtdeTurbinas: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Aviao(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int, int, int)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry y="1111" width="190" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=0.456;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="636" y="1119" as="sourcePoint" />
+            <mxPoint x="637.6400000000001" y="1015.19" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="638" y="1119" />
+              <mxPoint x="638" y="1023" />
+              <mxPoint x="638" y="1023" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-10" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;BaseVeiculoTransporte&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# eixo: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# porta: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BaseVeiculoTransporte(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int, String, String, int, int, int)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="539" y="1111" width="190" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1513.5555555555554" as="sourcePoint" />
+            <mxPoint x="638" y="1364" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="1364" />
+              <mxPoint x="540" y="1364" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Caminhao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- capacidade: double&lt;br&gt;- tipoImplemento: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Caminhao(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int, String, String, int, int, int, double, String)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="198" y="1408" width="190" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_MenzkilXTFoaSqeFXYU-12" target="_MenzkilXTFoaSqeFXYU-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Carro&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- classificacao: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Carro(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int, String, String, int, int, int, String)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="539" y="1408" width="190" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="_MenzkilXTFoaSqeFXYU-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="876" y="1512.5" as="sourcePoint" />
+            <mxPoint x="634" y="1364" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="788" y="1513" />
+              <mxPoint x="788" y="1364" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Onibus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- empresa: String&lt;br&gt;- codigoItinerario: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Onibus(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int, String, String, int, int, int, String, int)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="880" y="1408" width="190" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_MenzkilXTFoaSqeFXYU-14" target="_MenzkilXTFoaSqeFXYU-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-14" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;BaseVeiculoAereo&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# qtdeMototres: int&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BaseVeiculoAereo(int, String, String, String, String, String, int, int, double, double, int, double, String, String, String, String, String, int, int)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry y="825" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_MenzkilXTFoaSqeFXYU-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="1" vertex="1">
+          <mxGeometry x="374" y="916" width="176" height="8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
